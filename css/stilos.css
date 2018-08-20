@@ -1,0 +1,1138 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0; margin: 0; text-align: center; font-family: 'Hind', sans-serif !important; list-style-type: none;}
+
+
+
+.dropdown-submenu{ position: relative; }
+
+.dropdown-submenu>.dropdown-menu{
+  top:0;
+  left:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+}
+
+.dropdown-submenu>a:after{
+  display:block;
+  content:" ";
+  float:right;
+  width:0;
+  height:0;
+  border-color:transparent;
+  border-style:solid;
+  border-width:5px 0 5px 5px;
+  border-left-color:#cccccc;
+  margin-top:5px;margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after{
+  border-left-color:#555;
+}
+.dropdown-submenu.pull-left{ float: none; }
+.dropdown-submenu.pull-left>.dropdown-menu{
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+@media (min-width: 768px) { 
+
+}
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 1200px) { 
+
+}
+
+
+
+
+#wrap{width:100%; margin: 0 auto;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+
+
+
+.top{background: url(../img/top_banner.jpg) no-repeat center top; width:100%; background-size:cover; margin-top: 60px;}
+
+h2{color:#2d3033 !important; font-weight: lighter !important; font-size: 52px !important; padding-top: 70px !important;}
+h1{ font-family: 'Montserrat', sans-serif; font-size: 70px !important; font-weight: 400 !important; color: #00ACED !important; margin-bottom: 96px !important;}
+h3{font-size: 52px !important; color: #4c4f51 !important; padding-top: 370px !important; font-weight: 100 !important;}
+h5{font-size: 36px !important; font-weight: 200 !important;}
+p{font-size: 16px; color: #788085; width: 75%; margin: 30px auto !important;}
+
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0 !important;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.nav{text-transform: uppercase;}
+
+.navbar-default .navbar-nav>li>a {
+    color: #4d4d4f !important;
+	font-size: 14px !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #00aced !important;
+    background-color: transparent;
+}
+
+.navbar-nav>li>a {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important; 
+}
+
+.nav>li>a {
+    padding: 20px 36px !important;
+}
+
+.dropdown-menu{background: #333 !important;}
+
+.dropdown-menu>li>a {color: #FFF !important;}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background: #333 !important;}
+
+.dropdown-menu>li>a:hover{color: #00aced !important;}
+
+.get{background: #00aced !important;;}
+
+
+.active,
+.active_2,
+.active_3,
+.active_4{visibility: hidden;}
+
+.sep{margin: 50px auto;}
+
+#marcas{margin-bottom: 100px;}
+#marcas ul{}
+#marcas ul li{display: inline-block; margin: 0 15px;}
+
+#database{background: url(../img/database_bg.png) no-repeat center top; background-size: auto; width: 100%;}
+#database .left{text-align: left !important; width: 40%; margin-left: 15%; margin-top: 90px;}
+#database .right{margin-top: 50px; width: 35%; margin-top: 200px;}
+#database .right img{width: 100%; height: auto;}
+#database h3,#database p,#crowfunding .right h3, 
+#crowfunding p,#design .left h3,
+#design .left p,#development .right p,
+#video .left h3,#video .left p,
+#planning_left h3,#planning_left p,
+#consulting h3,#consulting p,
+#promoting .left h3, #promoting .left p,
+#press .right h3, #press .right p,
+#question .right h3, #question .right p,
+#perks .left h3, #perks .left p,
+#fb .right h3, #fb .right p,
+#comission .left h3, #comission .left p,
+#marketing .right h3,#marketing .right p{padding-top: 0 !important;text-align: left !important; width: 100%; margin: 0 !important; }
+#database p{margin-top: 30px !important;}
+.links{display: inline-block; margin: 30px 0 30px;}
+.links img{margin: 0 10px;}
+
+#crowfunding{background: #0094ae; width: 100%;}
+#crowfunding .left{width: 47%;}
+#crowfunding .left img{width: 100%; height: auto;}
+#crowfunding .right{width: 38%; margin-right: 15%; margin-top: 54px; }
+#crowfunding .right h3{color: #FFF !important; background: url(../img/crow_icon.png) no-repeat center left; padding-left: 53px;}
+#crowfunding .right p{color: #9ee9f8 !important;}
+#crowfunding .right strong{color: #FFF !important; font-weight: 200 !important; }
+#crowfunding .links{color: #FFF !important; text-align: left !important; margin: 15px 0;}
+#crowfunding .links img{margin: 10px 1px; }
+#crowfunding p{margin-top: 40px !important;}
+
+#design{width: 100%; background: #82d7e8;}
+#design .left{width: 45%; margin-left: 15%; margin-top: 54px; text-align: left !important; margin-bottom: 54px;}
+#design .right{width: 40%;}
+#design .right img{width: 100%; height: auto;}
+#design .left h3{color: #FFF !important; background: url(../img/ico_des.png) no-repeat center left; padding-left: 53px;}
+#design .left p{color: #FFF !important; margin-top: 40px !important;}
+#design .links{color: #0094ae !important; text-align: left !important; margin: 15px 0;}
+#design .links img{margin: 10px 1px; }
+
+#development{background: #ecf7f9; width: 100%;}
+#development .right{width: 35%; margin-right: 15% !important; margin-top: 54px; text-align: left !important; margin-bottom: 54px;}
+#development .left{width: 40%; padding-top: 40px;}
+#development .right h3{background: url(../img/dev_ico.png) no-repeat center left; padding-left: 53px; padding-top: 0 !important; text-align: left;}
+#development .right p{text-align: left;}
+#development .left img{width: 100%; height: auto;}
+
+#video{background: #2a2a2a; width: 100%;}
+#video .left{width: 45%; margin-left: 15%; margin-top: 54px; text-align: left !important; margin-bottom: 54px;}
+#video .right{width: 40%;}
+#video .left h3{color: #FFF !important; background: url(../img/video_icon.png) no-repeat center left; padding-left: 53px;}
+#video .left p{color: #606060 !important; margin-top: 40px !important;}
+#video .links{color: #FFF !important; text-align: left !important; margin: 15px 0;}
+#video .right img{width: 100%; height: auto;}
+
+#contact{background: #fcfade; width: 100%;}
+#contact h3{padding-top: 100px !important;}
+
+footer{background: #2d3033; width: 100%; padding: 20px 0;}
+footer .left{color: #a4abb0; width: 40%; margin-left: 10%; text-align: left !important;}
+footer ul{text-align: left !important}
+footer li{display: inline-block; margin-right: 10px;}
+footer .sm{font-size: 13px; text-align: left !important;}
+footer .right{margin-right: 10%;}
+
+#services h3{padding-top: 90px !important;}
+#services .sep{margin: 20px auto !important;}
+#services h4{color: #28aae1; font-size: 24px; font-weight: 200;}
+#services ul{ margin-top: 40px;}
+#services ul li{display: inline-block; width: 26%; margin: 0 3% 30px;}
+#services p{text-align: justify; margin: 0 !important; width: 100% !important;}
+#services .cierre img{width: 100%; height: auto;}
+
+#crowd_top{background: url(../img/crowdfunding/01.png) no-repeat center top; width:100%; background-size:cover; margin-top: 60px;}
+#crowd_top h2,
+#crowd_top h1{color: #FFF !important;}
+#crowd_top .sep, #white .sep,
+#media .sep{
+    margin: 13px auto;
+}
+
+#planning{background: url(../img/crowdfunding/plannig_bg.png) no-repeat center top; background-size: cover;}
+#planning .left{text-align: left !important; width: 40%; margin-left: 15%; margin-top: 90px;}
+#planning .right{width: 45%;}
+#planning .right img{width: 100%; height: auto;}
+#planning h3{background: url(../img/crowdfunding/ico_planning.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#consulting{background: url(../img/crowdfunding/consulting_bg.png) no-repeat center top; background-size: cover;}
+#consulting .left{width: 47%;}
+#consulting .left img{width: 100%; height: auto;}
+#consulting .right{width: 38%; margin-right: 15%; margin-top: 54px; }
+#consulting .right h3, #consulting .right p,
+#promoting .left h3, #promoting .left p{color: #FFF !important; }
+#consulting .right h3{background: url(../img/crowdfunding/ico_consulting.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#promoting{background: url(../img/crowdfunding/promoting_bg.png) no-repeat center top; background-size: cover;}
+#promoting .left{width:39%; margin-left: 15%; margin-top: 54px; text-align: left !important; margin-bottom: 54px;}
+#promoting .right{width: 45%;}
+#promoting .right img{width: 100%; height: auto;}
+#promoting .left h3{background: url(../img/crowdfunding/ico_promoting.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#press{background: #e8e8e8;}
+#press .left{width: 50%;}
+#press .left img{width: 100%; height: auto;}
+#press .right{width: 35%; margin-right: 15%; margin-top: 54px; margin-bottom: 20px !important; }
+#press .right h3{background: url(../img/crowdfunding/ico_press.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important; }
+
+#white{margin: 60px 0;}
+#white ul{}
+#white ul li{width: 25%; margin: 0 10px 10px; display: inline-block;}
+#white p{width: 100% !important; margin: 0 auto !important; height: 110px; overflow: hidden;}
+
+#white h3, #media .h3, #raised h3{padding-top: 0 !important;}
+
+#backpack{background: url(../img/crowdfunding/09.png) no-repeat left top; width: 100%; background-size: contain;}
+#backpack .right{width: 40%; margin-right: 10%;}
+#backpack .right img{width: 100%; height: auto;}
+#backpack .right p{ width: 52%; float: right;}
+
+#media{}
+#media h3,
+#services h3{padding-top: 0 !important; width: 80%; margin: 0 auto;}
+
+.row{margin: 0 !important; width: 80%; margin: 0 auto !important;}
+
+.col-lg-2 {width: 19.666667% !important; margin-bottom: 20px;}
+
+#pledges{background: url(../img/crowdfunding/pledges.jpg) no-repeat center top; background-size: cover; width: 100%; }
+#pledges h3, #pledges p,
+#perks .left h3, #perks .left p{color: #FFF !important;}
+#pledges h3, #raised h3 {padding-top: 30px !important;}
+#pledges .falso, #raised .falso{height: 300px;}
+
+#services{margin-top: 70px;}
+#services h3{margin-bottom: 35px;}
+#services ul{ width: 80%; margin: 0 auto;}
+#services ul li{width: 30%; display: inline-block; margin: 10px; border-top:solid 3px #1593d5; padding-top: 10px;}
+#services ul strong{font-size: 24px; color: #4c4f51;}
+#services ul p{margin-bottom: 10px !important;}
+#services ul img{    width: 91%;height: auto;}
+
+#raised{background: url(../img/crowdfunding/37.jpg) no-repeat center top; background-size: cover; width: 100%;}
+#raised h3{padding-bottom: 20px;}
+#raised h3, #raised p{color: #FFF !important;}
+#raised img{margin-bottom: 30px;}
+
+#question{background: #52d78a; width: 100%;}
+#question .left{width: 35%; margin-left: 15%;}
+#question .left img{width: 100%; height: auto;}
+#question .right{width: 33%; margin-right: 15%; margin-top: 54px;}
+#question .right h3, #question .right p{color: #FFF !important;}
+#question .right h3{background: url(../img/crowdfunding/38.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#perks{background: #b587c8; width: 100%;}
+#perks .left{text-align: left !important; width: 40%; margin-left: 15%; margin-top: 90px;}
+#perks .right{width: 45%;}
+#perks .right img{width: 100%; height: auto;}
+#perks .left h3{background: url(../img/crowdfunding/41.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#fb{background: #d7675c; width: 100%;}
+#fb .left{width: 45%;}
+#fb .left img{width: 100%; height: auto;}
+#fb .right{width: 37%; margin-right: 15%; margin-top: 54px;}
+#fb .right h3, #fb .right p,
+#comission .left h3, #comission .left p,
+#marketing .right h3, #marketing .right p{color: #FFF !important;}
+#fb .right h3{background: url(../img/crowdfunding/43.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#comission{background: #3a628b;}
+#comission .left{text-align: left !important; width: 40%; margin-left: 15%; margin-top: 90px;}
+#comission .right{width: 45%;}
+#comission .right img{width: 100%; height: auto;}
+#comission .left h3{background: url(../img/crowdfunding/45.png) no-repeat center left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#marketing{background: #95a5a6;}
+#marketing .left{width: 40%;}
+#marketing .left img{width: 100%; height: auto;}
+#marketing .right{width: 42%; margin-right: 15%; margin-top: 54px;}
+#marketing .right h3, #fb .right p,
+#marketing .left h3, #marketing .left p{color: #FFF !important;}
+#marketing .right h3{background: url(../img/crowdfunding/47.png) no-repeat top left; padding-left: 53px; margin-bottom: 20px !important;}
+
+#sales h4{color: #31aae2 !important; font-size: 30px; margin-top: 30px;}
+#sales h5{font-size: 18px !important;}
+#sales .line{width: 50%; margin: 10px auto 30px; height: 1px; background: #d2d2d2;}
+#sales ul{}
+#sales ul li{width: 22%; display: inline-block; margin: 0 30px;}
+#sales ul li p{margin: 10px 0 10px !important; width: 100%; height: 128px;}
+#sales ul li strong{font-size: 20px; color: #31aae2; font-weight: 100;}
+#sales ul li img{margin-bottom: 10px;}
+#sales .cierre{background: url(../img/sales_support/06.jpg) no-repeat center top; background-size: cover; margin-top: 20px; width: 100%; padding: 50px 0;}
+#sales .box{border-top: solid 4px #1f9fd0; background: url(../img/sales_support/07.png); width: 80%; margin: 0 auto; padding: 10px;}
+#sales .box h4{color: #FFF !important; font-size: 24px; text-transform: uppercase; font-weight: 200;}
+#sales .box h1{color: #FFF !important; font-size: 60px; text-transform: uppercase; font-weight: 700 !important; margin-bottom: 20px !important;}
+#sales .box p{color: #FFF; font-size: 24px;}
+
+
+#diseno{}
+#diseno #consulting{background: url(../img/design/01.jpg) no-repeat center top; background-size: cover; margin-top: 61px;}
+#diseno #consulting h3{text-align: right !important; font-size: 70px !important; font-weight: 100 !important; background: none;}
+#diseno #consulting p{text-align: right !important;font-size: 24px !important; font-weight: 100 !important;}
+#diseno #consulting img{float: right; margin: 10px 0 120px;}
+
+#diseno #deserves{background: url(../img/design/03.png) repeat-x top; margin-top: 0;}
+#diseno #deserves h3{padding-top: 70px !important; margin-top: 0;}
+#diseno #deserves ul li{display: inline-block; width: 13%;}
+#diseno #deserves ul{width: 80%; margin: 0 auto;}
+
+#diseno #question{background: #eff9fe;}
+#diseno #question h3,
+#diseno #question p{color: #788085 !important;}
+#diseno #question h3{background: url(../img/design/32.png) no-repeat left top !important;}
+
+#diseno #promoting{background: #86d4e8 !important;}
+#diseno #promoting h3{background: url(../img/design/35.png) no-repeat left top !important;}
+
+#diseno #press{background: #2a304e !important;}
+#diseno #press h3, #diseno #press p{color: #FFF !important;}
+#diseno #press h3{background: url(../img/design/37.png) no-repeat left top !important;}
+
+#diseno #perks{background: #0a8ec3;}
+#diseno #perks h3{background: url(../img/design/40.png) no-repeat left top !important;}
+
+#diseno #fb{background: #ffb400 !important;}
+#diseno #fb h3{background: url(../img/design/43.png) no-repeat left top !important;}
+
+#diseno #comission{background: #2a2a2a !important;}
+#diseno #comission h3{background: url(../img/video_icon.png) no-repeat left top !important;}
+
+#work{background: #0a8ec3; padding: 40px;}
+#work h6{font-size: 35px; color: #FFF; font-weight: 200 !important;}
+
+#waiting{background: url(../img/design/48.jpg) no-repeat center top; width: 100%; background-size: cover;}
+#waiting h3{margin: 0; padding: 50px 0 0 !important;}
+#waiting img{margin-bottom: 120px;}
+
+#data-base{}
+#data-base #crowd_top{background: url(../img/database/01.jpg) no-repeat center top; background-size: auto !important;}
+#data-base #crowd_top h1{font-size: 70px !important; font-weight: 700 !important; text-transform: uppercase; padding-top: 70px; margin-bottom: 0 !important;}
+#data-base #crowd_top h2{font-size: 24px !important; margin: 0 auto !important; padding-top: 0 !important; width: 70%;}
+#data-base #crowd_top h3{margin: 300px auto 10px !important; text-align: center !important; width: 80%;}
+#data-base #crowd_top p,
+#data-base #deserves p{width: 80% !important; text-align: center !important; margin: 0 auto !important;}
+#data-base #deserves ul li{display: inline-block; width: 13%;}
+#data-base #deserves ul{width: 80%; margin: 0 auto;}
+
+#data-base #consulting{background: url(../img/database/02.png) repeat-x top !important;}
+#data-base #consulting h3,
+#data-base #consulting p{color:#2d3033 !important;}
+#data-base #consulting h3{background: url(../img/database/05.png) no-repeat left top !important;}
+
+#data-base #promoting{background: #82d7e8 !important;}
+#data-base #promoting h3{background: url(../img/database/08.png) no-repeat left top !important;}
+
+#data-base #press{background: #16495c !important;}
+#data-base #press h3,
+#data-base #press p{color: #FFF !important;}
+#data-base #press h3{background: url(../img/database/11.png) no-repeat left top !important;}
+
+#trial{background: #ffb400; padding: 30px 0; width: 100%;}
+#trial h3{color: #FFF !important; font-size: 35px !important; padding-top: 0 !important;}
+
+#crm{background: #1180af; width: 100%; padding: 30px 0;}
+#crm h3{padding-top: 0 !important;}
+#crm h3, #crm p{color: #FFF !important;}
+
+#data-base #perks{background: #2a2a2a !important;}
+#data-base #perks h3,
+#data-base #comission h3{background: url(../img/database/15.png) no-repeat left !important; padding-left: 70px !important;}
+
+#data-base #question{background: #ffb400 !important;}
+#data-base #question .left{margin-left: 0 !important; width: 50% !important;}
+#data-base #question h3{background: url(../img/database/17.png) no-repeat left top !important;}
+
+#data-base #fb{background: #0a8ec3 !important;}
+#data-base #fb .right {width: 41% !important; margin-right: 13% !important;}
+#data-base #fb h3{background: url(../img/database/19.png) no-repeat left !important; padding-left: 70px !important;}
+
+#data-base #comission{background: #1f1f1f !important;}
+#data-base #comission ul{ width: 45%; float: left; margin-top: 10px;}
+#data-base #comission ul li{text-align: left !important; background: url(../img/database/21.png) no-repeat left top; padding-left: 30px; line-height: 23px; color: #FFF;}
+#data-base #comission ul h6{text-align: left !important; text-transform: uppercase; font-size: 16px !important; color: #FFF;}
+
+#million{background: #343f51; text-align: center; width: 100%;}
+
+#crm_home{}
+#crm_home #sales .cierre{background: url(../img/crm/06.jpg) no-repeat center top !important; background-size: cover !important;}
+#crm_home #sales ul li p {
+    margin: 10px 0 10px !important;
+    width: 100%;
+    height: 158px;
+}
+.top_1{width: 100%; height: auto;}
+
+#wip{}
+#wip #crowd_top{
+    background: url(../img/wip/01.jpg) no-repeat center top !important;
+    width: 100%;
+    background-size: cover !important;
+    margin-top: 60px;
+}
+#wip #crowd_top h2{font-size: 30px !important; text-align: left !important; margin-top: 0 !important; padding-top: 0 !important;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);}
+#wip #crowd_top h1{font-size: 60px !important; text-align: left !important; margin-bottom: 0 !important; margin-top: 180px;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);}
+#wip #crowd_top .left{width: 38%; margin-left: 15%; }
+#wip #crowd_top img{margin: 0 10px 100px 10px;}
+.logos{width: 80%; margin: 10px auto;}
+.logos li{display: inline-block; width: 19%;}
+.logos li img{width: 100%; height: auto}
+
+#our{width: 100%; background: url(../img/wip/09.png) no-repeat center top; background-size: cover; padding-bottom: 30px;}
+#our h3{color: #00a2e1 !important;margin-top: 0 !important;padding-top: 50px !important;}
+.search{background: #fafafa; border: solid 1px #979797; width: 80%; margin: 10px auto 0;}
+.titulo{width: 100%; background: #3f3f3f; color: #FFF; padding: 5px 15px; font-size: 20px; text-align: left;}
+.search p{width: 95% !important; text-align: left !important; padding: 0 !important;}
+
+#down{}
+#down h3,
+#plans h3{font-size: 40px;color: #00a2e1 !important;margin-top: 0 !important; padding-top: 20px !important;}
+#down img{margin: 0 10px 20px;}
+
+#tech{background: #f5f4f9;}
+#tech h3{color: #00a2e1 !important;margin-top: 0 !important;padding-top: 50px !important;}
+#tech p{font-size: 22px; margin-bottom: 0 !important; padding-bottom: 40px;}
+
+#wip #consulting,
+#wip #promoting,
+#wip #press,
+#wip #perks{background: #f5f4f9 !important; padding-bottom: 20px;}
+#wip #consulting .right {width: 30% !important; background: url(../img/wip/13.png) no-repeat left top; padding-left: 86px; margin-top: 114px !important;}
+#wip #consulting .left,
+#wip #promoting .right,
+#wip #press .left,
+#wip #perks .right{width: 55%;}
+#wip #consulting h3,
+#wip #promoting h3,
+#wip #press h3,
+#wip #perks h3{color: #4d4d4f !important; font-size: 36px !important; line-height: 32px; background: none !important; padding-left: 0;}
+#wip #consulting p,
+#wip #promoting p,
+#wip #press p,
+#wip #perks p,
+#wip #marketing p{color: #4d4d4f !important; font-size: 26px !important;}
+#wip #promoting .left {width: 30% !important; background: url(../img/wip/15.png) no-repeat left top; padding-left: 110px; margin-top: 114px !important;}
+#wip #press .right {width: 30% !important; background: url(../img/wip/17.png) no-repeat left top; padding-left: 146px; margin-top: 64px !important;}
+#wip #perks .left {width: 30% !important; background: url(../img/wip/19.png) no-repeat left top; padding-left: 135px; margin-top: 114px !important;}
+#wip #fb{background: url(../img/wip/22.jpg) no-repeat center top !important;}
+#wip #fb h3{background: #00a2e1; line-height: 79px;}
+#wip #fb .right{width: 30%; margin-right: 10% !important; margin-top: 184px !important;}
+#wip #fb .right img{margin: 10px 0 70px;}
+
+#wip #marketing .left{width: 50% !important;}
+#wip #marketing .right{width: 32% !important;}
+#wip #marketing{background: #FFF !important;}
+#wip #marketing p{margin-top: 100px !important;}
+
+#plans{background: #f5f4f9; padding: 20px;}
+#plans img{width: 80%; margin: 0 auto;}
+
+#about{}
+#about #sales .left,
+#about #sales .right{width: 35%;}
+#about #sales .left{margin-left: 15%;}
+#about #sales .right{margin-right: 15%;}
+#about #sales .right p{text-align: left;}
+
+#about #sales ul li p {margin: 10px 0 10px !important;width: 100%;height: 149px;overflow: hidden;}
+
+.gal {-webkit-column-count: 3; /* Chrome, Safari, Opera */-moz-column-count: 3; /* Firefox */column-count: 3;width: 65%;margin: 0 auto;}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {.gal {-webkit-column-count: 1; /* Chrome, Safari, Opera */-moz-column-count: 1; /* Firefox */column-count: 1;}
+}
+
+#carrers{}
+
+#carrers #crowd_top {
+    background: url(../img/carrers/01.jpg) no-repeat center top;
+    width: 100%;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+
+
+#carrers h3{padding-top: 300px !important;}
+#carrers h5{font-size: 26px !important;}
+
+.panel-group {
+    margin-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+.panel-title, .panel-body{text-align: left !important;}
+.panel-default {
+    border-color: #FFF !important;
+}
+
+.panel-title {
+    line-height: 38px !important;}
+a:hover {
+    text-decoration: none !important;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #FFF !important;
+    border:solid 1px #efefef !important;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #FFF;
+}
+
+#team{}
+
+#team #crowd_top {
+    background: url(../img/team/01.jpg) no-repeat center top !important;
+    width: 100% !important;
+    background-size: cover;
+}
+
+#team #crowd_top h1{
+        padding-top: 190px !important;
+        margin-bottom: 0 !important;
+}
+
+#team #crowd_top h2{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    padding-bottom: 240px !important;
+}
+
+#clean_d {margin: 50px  0;}
+#clean_d .left{width: 40%; margin-left: 15%;}
+#clean_d .right{width: 35%; margin-right: 10%;}
+#clean_d img{width: 100%; height: auto;}
+#clean_d h3{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+#clean_d h3,
+#clean_d p{text-align: left !important;}
+#clean_d p{margin: 0 !important; width: 90% !important;}
+
+#meet{background: #f7f7f7; padding: 30px 0;}
+#meet h3,
+#our_mission h3,
+#our_media h3{padding: 0 !important; margin: 0 !important;}
+#meet .sep,
+#our_mission .sep,
+#our_media .sep{margin: 10px auto;}
+
+#meet ul{}
+#meet ul li{display: inline-block; width: 30%; margin: 10px; background: #FFF; border: solid 1px #ebebeb;}
+#meet ul li .left,
+#meet ul li .right{padding: 5px;}
+#meet ul li .left{text-align: left;}
+#meet ul li .image{width: 100%; height: auto;}
+
+#our_data{
+    background: url(../img/team/04.jpg) no-repeat center top !important;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+}
+#our_data h3{padding-top: 0 !important; color: #FFF !important; margin-bottom: 30px;}
+#our_data ul{}
+#our_data ul li{display: inline-block; width: 20%; margin: 0 10px;}
+#our_data ul li h6{color: #FFF; font-size: 16px;}
+
+#shiva
+{
+  margin:5px;
+}
+.count
+{
+  color:white;
+  font-size:25px;
+}
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+  float:left;
+  margin:20px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+  font-size : 20px;
+  color: black;
+}
+
+#our_mission{ margin: 30px 0}
+#our_mission .left{width: 40%; margin-left: 10%;}
+#our_mission .left img{width: 100%; height: auto;}
+#our_mission .right{width: 30%; margin-right: 15%;}
+#our_mission .right h3,
+#our_mission .right p{text-align: left;}
+#our_mission .right p{width: 100%; margin: 0;}
+
+#start{background: #f8f8f8; width: 100%; padding: 30px;}
+#start h6{font-size: 26px; font-weight: 400 !important;}
+
+#our_media{margin: 30px 0;}
+
+
+#our_media ul li{display: inline-block; width: 30%; margin: 10px; text-align: left;}
+#our_media ul li .left,
+#our_media ul li .right{padding: 5px;}
+#our_media ul li .left{text-align: left;}
+#our_media ul li .image{width: 100%; height: auto; margin-bottom: 10px;}
+
+
+#contact_us{}
+
+#contact_us #crowd_top {
+    background: url(../img/contact/01.jpg) no-repeat center top !important;
+}
+
+#contact_us #crowd_top h1{
+        
+        margin-bottom: 0 !important;
+    padding-bottom: 240px !important;
+}
+
+#contact_us #crowd_top h2{
+    padding-top: 190px !important;
+        margin-top: 0 !important;
+    
+}
+
+#contact_us #clean_d h3, #contact_us #clean_d p{text-align: center !important;}
+#contact_us #clean_d p{width: 100% !important;}
+#contact_us #clean_d .sep{width: 8%; margin: 20px auto;}
+
+#contact_us #formulario{width: 50%; margin: 30px auto;}
+
+.btn {
+    border-radius: 18px !important;
+    padding: 12px 53px !important;
+}
+
+#video_home{}
+
+#video_home #crowd_top {
+    background: url(../img/video/01.jpg) no-repeat center top !important;
+    width: 100% !important;
+    background-size: cover;
+}
+
+
+#video_home #crowd_top h1{margin-bottom: 326px !important;}
+     
+#carr_video{
+    
+}
+
+#carr_video ul{width: 85%; margin: 30px auto;}
+#carr_video ul li{display: inline-block; margin: 0 10px; width: 29%; background: #000; margin-bottom: 10px;}
+#carr_video ul li .image{width: 100%; height: auto;}
+#carr_video ul li .left{padding: 10px; text-align: left; color: #FFF;}
+#carr_video ul li strong{font-weight: 400;}
+#carr_video ul li .right{padding: 10px;}
+
+#video_home #planning{
+    background: #14afea !important;
+}
+
+#video_home #planning .right {
+    width: 52%;
+}
+
+#video_home #planning .left {
+    text-align: left !important;
+    width: 37%;
+    margin-left: 11%;
+    margin-top: 33px;
+}
+
+#video_home #planning h3 {
+    background: url(../img/video/04.png) no-repeat center left;
+    padding-left: 53px;
+    margin-bottom: 20px !important;
+    color: #FFF !important;
+}
+#video_home #planning p{color: #FFF !important;}
+
+.check_ li{width: 18% !important; margin: 30px 0 !important;}
+.check_ li img{width: 100% !important;}
+
+#advantage{}
+
+#advantage #crowd_top {
+    background: url(../img/advantage/01.jpg) no-repeat center top !important;
+    width: 100%;
+    background-size: contain !important;
+    margin-top: 60px;
+}
+
+#advantage #planning{background: #549fbb !important;}
+#advantage #planning h3,
+#advantage #planning p{color: #FFF !important;}
+#advantage #planning h3 {
+    background: url(../img/advantage/03.png) no-repeat top left;
+    padding-left: 53px;
+    margin-bottom: 20px !important;
+}
+
+#advantage #consulting{background: #1abc9c !important;}
+
+#advantage #perks {
+    background: #e74c3c !important;
+    width: 100%;
+}
+
+#advantage #perks h3 {
+    background: url(../img/advantage/07.png) no-repeat top left;
+    padding-left: 53px;
+    margin-bottom: 20px !important;
+}
+
+#advantage #fb {
+    background: #63798f;
+    width: 100%;
+}
+
+#advantage #fb h3 {
+    background: url(../img/advantage/09.png) no-repeat top left;
+    padding-left: 53px;
+    margin-bottom: 20px !important;
+}
+
+#analytics .cierre {
+    background: url(../img/sales_support/06.jpg) no-repeat center top;
+    background-size: cover;
+    margin-top: 20px;
+    width: 100%;
+    padding: 50px 0;
+}
+
+#lead .cierre {
+    background: url(../img/sales_support/06.jpg) no-repeat center top;
+    background-size: cover;
+    margin-top: 0 !important;
+    width: 100%;
+    padding: 50px 0;
+}
+
+#lead ul li p {
+    margin: 10px 0 10px !important;
+    width: 100%;
+    height: 171px;
+    overflow: hidden;
+}
+
+#lead #steps{
+    background: url(../img/lead/05.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+#steps ul{width: 80%; margin: 0 auto;}
+#steps ul li{width: 30%; margin: 0 10px;}
+#steps ul li strong,
+#steps ul li p{color: #FFF;}
+#steps ul li p{height: 90px !important;}
+#steps ul li strong{text-transform: uppercase; font-weight: 700;}
+
+#lead #watch{
+    background: url(../img/lead/09.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+#lead #watch h4,
+#lead #watch p{color: #FFF !important;}
+
+#case{}
+
+#show_me{}
+#show_me .inside{position: absolute; width: 100%;}
+#show_me .inside h2,
+#show_me .inside h1{color: #FFF !important;}
+#show_me .inside h2{margin-top: 90px !important;}
+
+#case #carr_video ul{width: 85%; margin: 30px auto;}
+#case #carr_video ul li{display: inline-block; margin: 0 10px; width: 29%; background: #FFF; margin-bottom: 10px; border-top: solid 4px #1e8acc;}
+#case #carr_video ul li .image{width: 100%; height: auto;}
+#case #carr_video ul li .left{padding: 5px !important; text-align: left; color: #333;}
+#case #carr_video ul li p{width: 100% !important; text-align: left !important; margin: 0 !important;}
+#case #carr_video ul li p em{color: #1e8acc;}
+#case #carr_video ul li strong{font-weight: 700;}
+#case #carr_video ul li .right{padding: 10px;}
+
+#join{
+    background: url(../img/case/03.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+#join h3{color: #FFF !important; padding-top: 0 !important;}
+
+#bloque_izq{width: 64%; margin-left: 15% !important;}
+#bloque_der{width: 20%;}
+
+#bloque_izq,
+#bloque_der{margin: 30px 0;}
+
+.post{
+    width: 43%;
+    -webkit-box-shadow: 0px 4px 5px 6px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 4px 5px 6px rgba(0,0,0,0.11);
+    box-shadow: 0px 4px 5px 6px rgba(0,0,0,0.11);
+    margin: 0 28px 30px;
+}
+.post img{width: 100%; height: auto; margin-bottom: 10px;}
+.post strong{font-size: 18px !important;}
+.post p{width: 100% !important; height: auto !important; margin: 5px auto !important;}
+.post h4{border-top: solid 1px #333; padding-top: 5px;}
+
+#bloque_der .post{
+    width: 70%;
+    margin: 0 10px 0 0 !important;
+    padding: 5px;
+}
+#bloque_der .post h3{
+    font-size: 24px !important;
+    padding-top: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .post {
+    width: 97%;
+    }
+    #bloque_der{display: none;}
+    
+    #show_me .inside h2 {
+    margin-top: 0px !important;
+}
+    #show_me .inside h1 {
+    margin-top: 0px !important;
+        font-size: 21px !important;
+        margin-bottom: 0 !important;
+}
+    
+    #case #carr_video ul li {
+        width: 89%;
+    }
+    
+    #lead ul li p {
+        margin: 10px 0 10px !important;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    #watch img{width: auto !important;}
+    
+    .check_ li {
+        width: 68% !important;
+        margin: 30px 0 !important;
+    }
+    
+    #video_home #planning .left {
+        text-align: left !important;
+        width: 80%;
+        margin-left: 11%;
+        margin-top: 33px;
+    }
+    #video_home #planning .right {
+        width: 93%;
+    }
+    
+    
+    #video_home #crowd_top h2 {
+        padding-top: 27px !important;
+        color: #FFF !important;
+    }
+    #video_home #crowd_top h1 {
+        color: #FFF !important;
+    }
+    
+    #carr_video ul li {
+        display: inline-block;
+        margin: 0 10px;
+        width: 90%;
+        background: #000;
+        margin-bottom: 10px;
+    }
+    
+    #team #crowd_top h1,
+    #team #crowd_top h2{color: #FFF !important;}
+    
+    #clean_d .left {
+        width: 80%;
+        margin-left: 15%;
+    }
+    
+    #clean_d .right {
+    width: 75%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+    #meet ul li {
+    display: inline-block;
+    width: 82%;
+    }
+    #our_data ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 0 10px;
+    }
+    #our_mission .left {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    #our_mission .right {
+        width: 76%;
+        margin-right: 15%;
+        margin-top: 30px;
+    }
+    
+    #our_media ul li {
+        display: inline-block;
+        width: 80%;
+        margin: 10px;
+        text-align: left;
+    }
+    
+    #team #crowd_top h2{padding-bottom: 100px !important;}
+
+    #marcas ul{width: 100%;}
+    #marcas ul li{display: block; margin-bottom: 30px;}
+    .links img{margin: 10px 0;}
+    #database {background-size: cover !important;}
+    #database .left {
+       
+        width: 80% !important;
+        margin-left: 5% !important;
+        margin-top: 33px !important;}
+    #database .right{width: 90% !important; margin-top: 20px !important;}
+    
+    #crowfunding .left {
+        width: 100% !important;
+    }
+    #crowfunding .right {
+        width: 80% !important;
+    }
+    #crowfunding .links {
+        margin: 15px auto !important;
+        width: 80% !important;
+    }
+    #design .left {
+        width: 78% !important;
+    }
+    #design .right {
+        width: 90% !important;
+    }
+    #development .left {
+        width: 93% !important;
+    }
+    #development .right {
+        width: 75% !important;
+    }
+    #video .left {
+        width: 76% !important;
+    }
+    #video .right {
+        width: 100% !important;
+    }
+    #video .right img,
+    #iconos img{width: 100% !important; height: auto !important;}
+    
+    footer .left {
+        width: 90% !important;
+    }
+    footer .right{width: 87% !important; margin: 20px auto;}
+    footer .right img{margin: 6px;}
+    
+    #crowfunding .links img{
+        margin: 10px auto !important;
+        display: list-item !important;
+    }
+    #design .links img,
+    #development .links img,
+    #video .links img{    
+        display: flex !important;
+    margin: 20px auto !important;}
+    
+    #design .links,
+    #development .links,
+    #video .links{width: 90% !important;}
+    
+    #services .cierre{width: 100% !important;}
+    #services ul li{width: 80% !important;}
+    
+    #crowd_top {
+    background-size: contain !important;
+    margin-top: 50px !important;
+    }
+    
+    #crowd_top h2, #crowd_top h1{color: #333 !important;}
+    #crowd_top h2{padding-top: 207px !important;}
+    
+    #planning .left{width: 75% !important; margin-bottom: 20px;}
+    #planning .right {
+        width: 100% !important;
+    }
+    
+    #consulting .left{width: 80%;}
+    #consulting .right{width: 75%;margin-bottom: 20px;}
+    #promoting .left {width: 79%;}
+    #promoting .right {width: 90%;}
+    #press .left {width: 100%;}
+    #press .right {width: 77%; margin-bottom: 20px;}
+    #white ul li {width: 80%;}
+    #backpack .right{width: 100%; margin-top: 40px;}
+    .col-lg-2 {width: 49.666667% !important;}
+    #question .left{width: 70%;}
+    #question .right{width: 72%; margin-bottom: 20px;}
+    #perks .right {width: 89%;}
+    #perks .left{width: 81%;}
+    #fb .left {width: 80%;}
+    #fb .right{width: 76%; margin-bottom: 20px;}
+    #comission .left{width: 75%}
+    #comission .right{width: 80%}
+    #marketing .left{width: 90%;}
+    #marketing .right{width: 74%; margin-bottom: 20px;}
+    
+    #sales{margin-top: 50px;}
+    #sales img,
+    #crm img{margin-bottom: 10px; width: 100%; height: auto;}
+    #sales ul li{width: 84%;}
+    #sales ul li img, #sales .box img{width: auto; height: auto;}
+    #sales .box p{font-size: 16px;}
+    #diseno #deserves ul li,
+    #data-base #deserves ul li{width: 80%}
+    #diseno #consulting h3{font-size: 49px !important;}
+    #diseno #consulting p{font-size: 16px !important;}
+    #data-base #fb .right {
+        width: 81% !important;}
+    #million img{width: 100%; height: auto;}
+    
+    #data-base #crowd_top h2, #data-base #crowd_top h1{}
+    #data-base #crowd_top h1{font-size: 35px !important; padding-top: 211px !important;}
+    
+    #data-base #crowd_top{background-size: contain !important;}
+    #data-base #crowd_top h3 {
+        margin: 50px auto 10px !important;}
+    #crm_home #sales ul li img{width: 100% !important; height: auto;}
+    #crm_home #sales ul li p {
+    margin: 10px 0 10px !important;
+    width: 100%;
+    height: 173px;
+}
+    
+    #wip #crowd_top .left {
+        width: 82%;
+        margin-left: 15%;
+    }
+    #wip #crowd_top {background: url(../img/wip/01.jpg) no-repeat left top !important;}
+    #wip #crowd_top img {margin: 0 10px 30px 10px;}
+    .logos li {
+        display: inline-block;
+        width: 49%;
+    }
+    #wip #consulting .left, #wip #promoting .right, #wip #press .left, #wip #perks .right {
+        width: 93%;
+    }
+    #wip #consulting .right {
+        width: 77% !important;
+        background: url(../img/wip/13.png) no-repeat left top;
+        padding-left: 86px;
+        margin-top: 114px !important;
+    }
+    #wip #promoting .left {width: 77% !important;}
+    #wip #press .right {width: 80% !important;}
+    #wip #perks .left {width: 80% !important;}
+    #wip #fb {background: url(../img/wip/22.jpg) no-repeat left top !important;}
+    #wip #fb .right {width: 70%;}
+    #wip #marketing .left {width: 80% !important;}
+    #wip #marketing .right {width: 77% !important; margin-top: -76px;}
+    #about #sales .left, #about #sales .right {
+        width: 71%;
+    }
+    
+}
+.blue{    
+    background: #04afd1 !important;
+    border-radius: 40px !important;
+    padding: 31px !important;
+    margin-top: 9px !important;
+    color: #FFF;
+}
+
+
